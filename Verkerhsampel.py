@@ -17,6 +17,6 @@ try:
         GPIO.output(Ampel[gelb],True)
         time.sleep(0.6)
         GPIO.output(Ampel[rot], False); GPIO.output(Ampel[gelb], False)
-        GPIO.output(Ampe[gruen], True)
+        GPIO.output(Ampel[gruen], True)
 except KeyboardInterrupt:
     GPIO.cleanup()
