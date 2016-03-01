@@ -5,7 +5,7 @@ rot     =0; gelb    =1; gruen   =2
 Ampel=[4,18,23]
 GPIO.setup(Ampel[rot], GPIO.OUT, initial=False)
 GPIO.setup(Ampel[gelb], GPIO.OUT, initial=False)
-GPIO.setup(Ampel[gruen], GPIO.OUT, intial=True)
+GPIO.setup(Ampel[gruen], GPIO.OUT, initial=True)
 print ("STRG+C beendet das Programm")
 try:
     while True:
